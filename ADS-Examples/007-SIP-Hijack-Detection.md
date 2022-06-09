@@ -1,5 +1,5 @@
 # Goal
-Detect when a SIP provider value has been modified in the Windows registry. This is likely an attempt to bypass code-signing enforcement policies or an attempt to execute code in the address space of all newly created user-mode processes. 
+Detect when a SIP provider key has been modified in the Windows registry. This is likely an attempt to bypass code-signing enforcement policies or an attempt to execute code in the address space of all newly created user-mode processes. 
 
 # Categorization
 These attempts are categorized as: 
