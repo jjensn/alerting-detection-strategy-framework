@@ -1,5 +1,5 @@
 # Goal
-Detect when a SIP provider value has been modified in the Windows registry. This is likely an attempt to bypass code-signing enforcment policies or an attempt to execute code in the address space of all newly created user-mode processes. 
+Detect when a SIP provider value has been modified in the Windows registry. This is likely an attempt to bypass code-signing enforcement policies or an attempt to execute code in the address space of all newly created user-mode processes. 
 
 # Categorization
 These attempts are categorized as: 
@@ -67,4 +67,4 @@ In the event that this alert fires, the following response procedures are recomm
 If the binary is not trustworthy, or cannot be traced to a legitimate installed application, treat it as a potential compromise and escalate to a security incident.
 
 # Additional Resources
-* [Sigtheif](https://github.com/secretsquirrel/SigThief)
+* [Sigthief](https://github.com/secretsquirrel/SigThief)
